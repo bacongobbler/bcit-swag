@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE roster SYSTEM "roster.dtd"> 
+
+<!--
+Displays the 2012 roster for the Seattle Seahawks,
+an american football team in the NFL.
+
+@author Jason Bolanos
+-->
+
+<roster team="Seattle Seahawks">
+    <member>
+        <number>3</number>
+        <position>QB</position>
+        <firstname>Russell</firstname>
+        <lastname>Wilson</lastname>
+        <age>23</age>
+        <weight>206</weight>
+        <img></img>
+    </member>
+</roster>

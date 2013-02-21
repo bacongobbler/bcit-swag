@@ -1,0 +1,11 @@
+<!ELEMENT roster (member+)>
+<!ELEMENT member (number, position, firstname, lastname, age, weight, img)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ELEMENT img (#PCDATA)>
+
+<!ATTLIST roster team CDATA #REQUIRED>

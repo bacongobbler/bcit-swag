@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Shows the schedule for the Seattle Seahawks 2012 season.
+
+@author Jason Bolanos
+-->
+
+<schedule team="Seattle Seahawks">
+    <game>
+        <date></date>
+        <venue></venue>
+        <opponent></opponent>
+        <teamscore></teamscore>
+        <opponentscore></opponentscore>
+    </game>
+</schedule>

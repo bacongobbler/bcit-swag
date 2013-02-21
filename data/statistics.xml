@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+NFL player statistics.
+
+One instance of standings for most rushing yards.
+
+Statistics must have one or more instances of standings, with a type attribute.
+A standing must have one or more players with a place number attribute.
+In order, the player must have first name, last name, and team.
+
+@author Jason Bolanos
+-->
+
+<statistics>
+	<standing type="Rushing Yards">
+		<player place="1">
+			<firstname>Marshawn</firstname>
+			<lastname>Lynch</lastname>
+			<team>Seattle Seahawks</team>
+		</player>
+		<player place="2">
+			<firstname>Jamaal</firstname>
+			<lastname>Charles</lastname>
+			<team>Kansas City Chiefs</team>
+		</player>
+		<player place="3">
+			<firstname>LeSean</firstname>
+			<lastname>McCoy</lastname>
+			<team>Philadelphia Eagles</team>
+		</player>
+	</standing>
+</statistics>
